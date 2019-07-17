@@ -13,6 +13,7 @@ public class DayOfWeek {
         if (n<=0||n>7){
             System.out.println("Invalid day!");
         }else {
+
             System.out.println(days[n-1]);
         }
 
