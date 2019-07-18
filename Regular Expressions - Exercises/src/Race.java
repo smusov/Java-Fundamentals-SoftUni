@@ -53,6 +53,7 @@ public class Race {
                 System.out.println(String.format("%srd place: %s",count.toString(),e.getKey()));
             }
             count.getAndIncrement();
+
         });
     }
 }
