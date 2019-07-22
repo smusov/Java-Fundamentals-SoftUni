@@ -19,6 +19,7 @@ public class VowelsCount {
                 sum++;
             }
         }
+
         return sum;
     }
 }
