@@ -10,11 +10,11 @@ public class ReverseStrings {
 
         while(!"end".equals(input=read.readLine())){
 
-            StringBuilder bilder = new StringBuilder();
+            StringBuilder builder = new StringBuilder();
 
-            bilder.append(input).reverse();
+            builder.append(input).reverse();
 
-            System.out.println(String.format("%s = %s",input,bilder.toString()));
+            System.out.println(String.format("%s = %s",input,builder.toString()));
 
         }
     }
