@@ -17,7 +17,6 @@ public class DigitsLettersAndOther {
         StringBuilder letters = new StringBuilder();
         StringBuilder other = new StringBuilder();
 
-
         while (matcher.find()) {
 
             nums.append(matcher.group("nums"));
